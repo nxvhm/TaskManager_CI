@@ -1,0 +1,57 @@
+.dropDown{
+    width: 160px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 0px 1px gray;
+}
+
+    .dropDown ul{
+        list-style: none;
+    }
+    .dropDown ul li{
+        background: #fff;
+        border-bottom: 1px solid #EDEDED;
+        padding: 5px 10px;
+        color: #000;
+    }
+    .dropDown ul li:first-child{
+        background: #6CCAFF;
+        box-shadow: 0 1px 0 0 #63C8FF inset;
+        -moz-border-radius-topleft: 6px;
+        border-top-left-radius: 6px;
+        -webkit-border-top-left-radius:  6px;
+        color: #fff;
+        
+        -moz-border-radius-topright: 6px;
+        border-top-right-radius: 6px;
+        -webkit-border-top-right-radius:  6px;
+    }
+    .dropdown ul li:first-child img{
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+    .dropDown ul li:last-child{
+        -moz-border-radius-bottomleft:  6px;
+        border-bottom-left-radius: 6px;
+        -webkit-border-bottom-left-radius:  6px;
+        
+        -moz-border-radius-bottomright: 6px;
+        border-bottom-right-radius: 6px;
+        -webkit-border-bottom-right-radius:  6px;
+        border: 0;
+    }
+    .dropDown ul li a{
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        transition: all 0.3s ease-out 0s;
+    }
+    .dropDown ul li a:hover, img{
+        cursor: pointer;
+        color: #55B4E8;
+    }
+    .dropDown ul li a img{
+        vertical-align: middle;
+        width: 24px;
+        border-right: 10px solid transparent; 
+    }
